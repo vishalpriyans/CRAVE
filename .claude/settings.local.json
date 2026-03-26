@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"c:\\\\Users\\\\Vishal priyan s\\\\Desktop\\\\full\\\\src\"\" 2>/dev/null || echo \"Checking directory structure... \")"
+    ]
+  }
+}
