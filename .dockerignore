@@ -1,0 +1,10 @@
+node_modules
+.git
+.gitignore
+README.md
+Jenkinsfile
+install_jenkins.sh
+SSH-KEY.pem
+docker-compose.yml
+.dockerignore
+Dockerfile
