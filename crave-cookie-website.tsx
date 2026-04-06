@@ -18,7 +18,7 @@ const COOKIES = [
     name: "Original\nChocolate Chip",
     nameShort: "Choc Chip",
     desc: "The classic done right. Golden buttery dough loaded with melty chocolate chips and crispy edges. Simple, perfect, addictive.",
-    price: "₹130",
+    price: "₹200",
     color: "#3E2723",
     bg: "#FFF3E0",
     accent: "#FF6F00",
