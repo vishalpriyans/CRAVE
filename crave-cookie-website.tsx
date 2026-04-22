@@ -35,7 +35,7 @@ const COOKIES = [
     name: "Triple\nChocolate",
     nameShort: "Triple Choc",
     desc: "For the chocolate obsessed. Dark cocoa dough with milk and white chocolate chunks — three layers of rich, fudgy heaven.",
-    price: "₹150",
+    price: "₹200",
     color: "#1B0E07",
     bg: "#F3E5F5",
     accent: "#7B1FA2",
@@ -52,7 +52,7 @@ const COOKIES = [
     name: "Biscoff",
     nameShort: "Biscoff",
     desc: "Crushed Biscoff cookies baked into spiced cinnamon dough with a molten speculoos butter core. Warm, caramelly, unreal.",
-    price: "₹150",
+    price: "₹200",
     color: "#4E342E",
     bg: "#EFEBE9",
     accent: "#BF7840",
@@ -728,8 +728,12 @@ const OrderSection = () => {
             transition: "all 0.5s ease 0.3s",
           }}
         >
-          <button
+          <a
+            href="https://wa.me/919980149361"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
+              display: "inline-block",
               padding: "15px 36px",
               background: "#FF6F00",
               color: "#FFF",
@@ -741,6 +745,7 @@ const OrderSection = () => {
               boxShadow: "0 6px 24px rgba(255,111,0,0.45)",
               transition: "transform 0.2s ease",
               letterSpacing: 0.3,
+              textDecoration: "none",
             }}
             onMouseEnter={(e) =>
               (e.currentTarget.style.transform = "scale(1.06)")
@@ -750,7 +755,7 @@ const OrderSection = () => {
             }
           >
             Order on WhatsApp 💬
-          </button>
+          </a>
         </div>
 
         <div
